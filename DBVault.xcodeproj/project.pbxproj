@@ -14,6 +14,7 @@
 		88E46A432C363528009CD1EC /* DBVaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E46A422C363528009CD1EC /* DBVaultTests.swift */; };
 		88E46A4D2C363528009CD1EC /* DBVaultUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E46A4C2C363528009CD1EC /* DBVaultUITests.swift */; };
 		88E46A4F2C363528009CD1EC /* DBVaultUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E46A4E2C363528009CD1EC /* DBVaultUITestsLaunchTests.swift */; };
+		88EA06532C3694E700E1E5E8 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EA06522C3694E700E1E5E8 /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		88E46A482C363528009CD1EC /* DBVaultUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBVaultUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E46A4C2C363528009CD1EC /* DBVaultUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBVaultUITests.swift; sourceTree = "<group>"; };
 		88E46A4E2C363528009CD1EC /* DBVaultUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBVaultUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		88EA06522C3694E700E1E5E8 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,9 @@
 		88E46A302C363526009CD1EC /* DBVault */ = {
 			isa = PBXGroup;
 			children = (
+				88EA06512C3694B800E1E5E8 /* ViewModels */,
+				88EA06502C3694AD00E1E5E8 /* Views */,
+				88EA064F2C36949800E1E5E8 /* Models */,
 				88E46A312C363526009CD1EC /* DBVaultApp.swift */,
 				88E46A332C363526009CD1EC /* ContentView.swift */,
 				88E46A352C363527009CD1EC /* Assets.xcassets */,
@@ -125,6 +130,28 @@
 				88E46A4E2C363528009CD1EC /* DBVaultUITestsLaunchTests.swift */,
 			);
 			path = DBVaultUITests;
+			sourceTree = "<group>";
+		};
+		88EA064F2C36949800E1E5E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				88EA06522C3694E700E1E5E8 /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		88EA06502C3694AD00E1E5E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		88EA06512C3694B800E1E5E8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EA06532C3694E700E1E5E8 /* Song.swift in Sources */,
 				88E46A342C363526009CD1EC /* ContentView.swift in Sources */,
 				88E46A322C363526009CD1EC /* DBVaultApp.swift in Sources */,
 			);
@@ -429,6 +457,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +486,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
